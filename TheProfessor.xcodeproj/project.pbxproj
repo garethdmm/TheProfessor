@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38E3129F17207F81004B3819 /* BaseStationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E3129E17207F81004B3819 /* BaseStationService.m */; };
+		38E9BF16171F54A2004082D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E9BF15171F54A2004082D2 /* UIKit.framework */; };
+		38E9BF18171F54A2004082D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E9BF17171F54A2004082D2 /* Foundation.framework */; };
+		38E9BF1A171F54A2004082D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E9BF19171F54A2004082D2 /* CoreGraphics.framework */; };
+		38E9BF20171F54A2004082D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38E9BF1E171F54A2004082D2 /* InfoPlist.strings */; };
+		38E9BF22171F54A2004082D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E9BF21171F54A2004082D2 /* main.m */; };
+		38E9BF26171F54A2004082D2 /* ProfessorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E9BF25171F54A2004082D2 /* ProfessorAppDelegate.m */; };
+		38E9BF28171F54A2004082D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E9BF27171F54A2004082D2 /* Default.png */; };
+		38E9BF2A171F54A2004082D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E9BF29171F54A2004082D2 /* Default@2x.png */; };
+		38E9BF2C171F54A2004082D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E9BF2B171F54A2004082D2 /* Default-568h@2x.png */; };
+		38E9BF2F171F54A2004082D2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E9BF2D171F54A2004082D2 /* MainStoryboard.storyboard */; };
+		38E9BF32171F54A2004082D2 /* ProfessorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E9BF31171F54A2004082D2 /* ProfessorViewController.m */; };
+		38E9BF3A171F566B004082D2 /* BaseStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E9BF39171F566B004082D2 /* BaseStationViewController.m */; };
+		38E9BF3D171F56C3004082D2 /* IdentityNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E9BF3C171F56C3004082D2 /* IdentityNodeViewController.m */; };
+		38E9BF42171F5EC7004082D2 /* IdentityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E9BF41171F5EC7004082D2 /* IdentityService.m */; };
+		38E9BF45171F691E004082D2 /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E9BF44171F691E004082D2 /* BLEUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38E9BF47171F6D94004082D2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E9BF46171F6D94004082D2 /* CoreBluetooth.framework */; };
+		38E9BF49171F762F004082D2 /* ScanningCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E9BF48171F762F004082D2 /* ScanningCell.xib */; };
+		38E9BF4C171F767A004082D2 /* ScanningCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E9BF4B171F767A004082D2 /* ScanningCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38E3129D17207F81004B3819 /* BaseStationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStationService.h; sourceTree = "<group>"; };
+		38E3129E17207F81004B3819 /* BaseStationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStationService.m; sourceTree = "<group>"; };
+		38E9BF12171F54A2004082D2 /* TheProfessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheProfessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E9BF15171F54A2004082D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38E9BF17171F54A2004082D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38E9BF19171F54A2004082D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38E9BF1D171F54A2004082D2 /* TheProfessor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheProfessor-Info.plist"; sourceTree = "<group>"; };
+		38E9BF1F171F54A2004082D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38E9BF21171F54A2004082D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38E9BF23171F54A2004082D2 /* TheProfessor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheProfessor-Prefix.pch"; sourceTree = "<group>"; };
+		38E9BF24171F54A2004082D2 /* ProfessorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfessorAppDelegate.h; sourceTree = "<group>"; };
+		38E9BF25171F54A2004082D2 /* ProfessorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfessorAppDelegate.m; sourceTree = "<group>"; };
+		38E9BF27171F54A2004082D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		38E9BF29171F54A2004082D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		38E9BF2B171F54A2004082D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		38E9BF2E171F54A2004082D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		38E9BF30171F54A2004082D2 /* ProfessorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfessorViewController.h; sourceTree = "<group>"; };
+		38E9BF31171F54A2004082D2 /* ProfessorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfessorViewController.m; sourceTree = "<group>"; };
+		38E9BF38171F566B004082D2 /* BaseStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStationViewController.h; sourceTree = "<group>"; };
+		38E9BF39171F566B004082D2 /* BaseStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStationViewController.m; sourceTree = "<group>"; };
+		38E9BF3B171F56C3004082D2 /* IdentityNodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentityNodeViewController.h; sourceTree = "<group>"; };
+		38E9BF3C171F56C3004082D2 /* IdentityNodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentityNodeViewController.m; sourceTree = "<group>"; };
+		38E9BF40171F5EC7004082D2 /* IdentityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentityService.h; sourceTree = "<group>"; };
+		38E9BF41171F5EC7004082D2 /* IdentityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentityService.m; sourceTree = "<group>"; };
+		38E9BF43171F691E004082D2 /* BLEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEUtility.h; sourceTree = "<group>"; };
+		38E9BF44171F691E004082D2 /* BLEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEUtility.m; sourceTree = "<group>"; };
+		38E9BF46171F6D94004082D2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		38E9BF48171F762F004082D2 /* ScanningCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanningCell.xib; sourceTree = "<group>"; };
+		38E9BF4A171F767A004082D2 /* ScanningCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanningCell.h; sourceTree = "<group>"; };
+		38E9BF4B171F767A004082D2 /* ScanningCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanningCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E9BF0F171F54A2004082D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E9BF47171F6D94004082D2 /* CoreBluetooth.framework in Frameworks */,
+				38E9BF16171F54A2004082D2 /* UIKit.framework in Frameworks */,
+				38E9BF18171F54A2004082D2 /* Foundation.framework in Frameworks */,
+				38E9BF1A171F54A2004082D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E9BF09171F54A2004082D2 = {
+			isa = PBXGroup;
+			children = (
+				38E9BF46171F6D94004082D2 /* CoreBluetooth.framework */,
+				38E9BF1B171F54A2004082D2 /* TheProfessor */,
+				38E9BF14171F54A2004082D2 /* Frameworks */,
+				38E9BF13171F54A2004082D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38E9BF13171F54A2004082D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E9BF12171F54A2004082D2 /* TheProfessor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E9BF14171F54A2004082D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E9BF15171F54A2004082D2 /* UIKit.framework */,
+				38E9BF17171F54A2004082D2 /* Foundation.framework */,
+				38E9BF19171F54A2004082D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38E9BF1B171F54A2004082D2 /* TheProfessor */ = {
+			isa = PBXGroup;
+			children = (
+				38E9BF43171F691E004082D2 /* BLEUtility.h */,
+				38E9BF44171F691E004082D2 /* BLEUtility.m */,
+				38E9BF24171F54A2004082D2 /* ProfessorAppDelegate.h */,
+				38E9BF25171F54A2004082D2 /* ProfessorAppDelegate.m */,
+				38E9BF2D171F54A2004082D2 /* MainStoryboard.storyboard */,
+				38E9BF30171F54A2004082D2 /* ProfessorViewController.h */,
+				38E9BF31171F54A2004082D2 /* ProfessorViewController.m */,
+				38E9BF38171F566B004082D2 /* BaseStationViewController.h */,
+				38E9BF39171F566B004082D2 /* BaseStationViewController.m */,
+				38E3129D17207F81004B3819 /* BaseStationService.h */,
+				38E3129E17207F81004B3819 /* BaseStationService.m */,
+				38E9BF48171F762F004082D2 /* ScanningCell.xib */,
+				38E9BF4A171F767A004082D2 /* ScanningCell.h */,
+				38E9BF4B171F767A004082D2 /* ScanningCell.m */,
+				38E9BF3B171F56C3004082D2 /* IdentityNodeViewController.h */,
+				38E9BF3C171F56C3004082D2 /* IdentityNodeViewController.m */,
+				38E9BF40171F5EC7004082D2 /* IdentityService.h */,
+				38E9BF41171F5EC7004082D2 /* IdentityService.m */,
+				38E9BF1C171F54A2004082D2 /* Supporting Files */,
+			);
+			path = TheProfessor;
+			sourceTree = "<group>";
+		};
+		38E9BF1C171F54A2004082D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E9BF1D171F54A2004082D2 /* TheProfessor-Info.plist */,
+				38E9BF1E171F54A2004082D2 /* InfoPlist.strings */,
+				38E9BF21171F54A2004082D2 /* main.m */,
+				38E9BF23171F54A2004082D2 /* TheProfessor-Prefix.pch */,
+				38E9BF27171F54A2004082D2 /* Default.png */,
+				38E9BF29171F54A2004082D2 /* Default@2x.png */,
+				38E9BF2B171F54A2004082D2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E9BF11171F54A2004082D2 /* TheProfessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E9BF35171F54A2004082D2 /* Build configuration list for PBXNativeTarget "TheProfessor" */;
+			buildPhases = (
+				38E9BF0E171F54A2004082D2 /* Sources */,
+				38E9BF0F171F54A2004082D2 /* Frameworks */,
+				38E9BF10171F54A2004082D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheProfessor;
+			productName = TheProfessor;
+			productReference = 38E9BF12171F54A2004082D2 /* TheProfessor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E9BF0A171F54A2004082D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Professor;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Gareth MacLeod";
+			};
+			buildConfigurationList = 38E9BF0D171F54A2004082D2 /* Build configuration list for PBXProject "TheProfessor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38E9BF09171F54A2004082D2;
+			productRefGroup = 38E9BF13171F54A2004082D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E9BF11171F54A2004082D2 /* TheProfessor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E9BF10171F54A2004082D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E9BF20171F54A2004082D2 /* InfoPlist.strings in Resources */,
+				38E9BF28171F54A2004082D2 /* Default.png in Resources */,
+				38E9BF2A171F54A2004082D2 /* Default@2x.png in Resources */,
+				38E9BF2C171F54A2004082D2 /* Default-568h@2x.png in Resources */,
+				38E9BF2F171F54A2004082D2 /* MainStoryboard.storyboard in Resources */,
+				38E9BF49171F762F004082D2 /* ScanningCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E9BF0E171F54A2004082D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E9BF22171F54A2004082D2 /* main.m in Sources */,
+				38E9BF26171F54A2004082D2 /* ProfessorAppDelegate.m in Sources */,
+				38E9BF32171F54A2004082D2 /* ProfessorViewController.m in Sources */,
+				38E9BF3A171F566B004082D2 /* BaseStationViewController.m in Sources */,
+				38E9BF3D171F56C3004082D2 /* IdentityNodeViewController.m in Sources */,
+				38E9BF42171F5EC7004082D2 /* IdentityService.m in Sources */,
+				38E9BF45171F691E004082D2 /* BLEUtility.m in Sources */,
+				38E9BF4C171F767A004082D2 /* ScanningCell.m in Sources */,
+				38E3129F17207F81004B3819 /* BaseStationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38E9BF1E171F54A2004082D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E9BF1F171F54A2004082D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38E9BF2D171F54A2004082D2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E9BF2E171F54A2004082D2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38E9BF33171F54A2004082D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38E9BF34171F54A2004082D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E9BF36171F54A2004082D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheProfessor/TheProfessor-Prefix.pch";
+				INFOPLIST_FILE = "TheProfessor/TheProfessor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38E9BF37171F54A2004082D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheProfessor/TheProfessor-Prefix.pch";
+				INFOPLIST_FILE = "TheProfessor/TheProfessor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E9BF0D171F54A2004082D2 /* Build configuration list for PBXProject "TheProfessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E9BF33171F54A2004082D2 /* Debug */,
+				38E9BF34171F54A2004082D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E9BF35171F54A2004082D2 /* Build configuration list for PBXNativeTarget "TheProfessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E9BF36171F54A2004082D2 /* Debug */,
+				38E9BF37171F54A2004082D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E9BF0A171F54A2004082D2 /* Project object */;
+}
