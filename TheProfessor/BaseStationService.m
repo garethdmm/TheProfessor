@@ -44,8 +44,27 @@ extern NSString *trevorServiceUUID;// = @"7dfbf576-9bee-4f81-a85c-db4504ad8f69";
     
     // identify the peripheral
 
-    NSArray * services = advertisementData[CBAdvertisementDataServiceUUIDsKey];
+    NSArray *services = advertisementData[CBAdvertisementDataServiceUUIDsKey];
+    
     for (CBUUID *serviceUUID in services) {
+        NSLog(@"Found a foreground app advertising");
+        if ([[BLEUtility CBUUIDToString:serviceUUID] isEqualToString:trevorServiceUUID]) {
+            NSLog(@"Trevor is here!");
+            [self.delegate didFindPerson:@"Trevor"];
+        } else if ([[BLEUtility CBUUIDToString:serviceUUID] isEqualToString:rossServiceUUID]) {
+            NSLog(@"Ross is here!");
+            [self.delegate didFindPerson:@"Ross"];
+        } else if ([[BLEUtility CBUUIDToString:serviceUUID] isEqualToString:garethServiceUUID]) {
+            NSLog(@"Gareth is here!");
+            [self.delegate didFindPerson:@"Gareth"];
+        }
+    }
+
+    // apps in the background advertise their services in this key
+    NSArray *bgServices = advertisementData[@"kCBAdvDataHashedServiceUUIDs"];
+    
+    for (CBUUID *serviceUUID in bgServices) {
+        NSLog(@"Found a background app advertising");
         if ([[BLEUtility CBUUIDToString:serviceUUID] isEqualToString:trevorServiceUUID]) {
             NSLog(@"Trevor is here!");
             [self.delegate didFindPerson:@"Trevor"];
